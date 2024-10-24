@@ -5,6 +5,7 @@ const Personal = () => {
     return(
         <div>
             < Hero/>
+            
             < Info />
         </div>
     )
