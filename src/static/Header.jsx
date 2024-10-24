@@ -1,13 +1,15 @@
 import { MdArrowDropDown } from "react-icons/md" 
 import styled from "styled-components"
 import { IoReorderTwoSharp } from "react-icons/io5";
+import kudi from '../assets/kuda.png'
+import myR from '../assets/nigeria.png'
 import { Link } from "react-router-dom";
 const Header = () => {
     return(
         <Container>
             <LogoNav>
                 <Logo>
-                    <img src="kuda.png" alt="" />
+                    <img src={kudi} alt="" />
                 </Logo>
                 <Navigation>
                     <Link to="/">
@@ -38,7 +40,7 @@ const Header = () => {
                 <SignIn> Sign In</SignIn>
                 <JoinBtn>Join Kuda</JoinBtn>
                 <ConBtn>
-                <img src="myR" alt="" />
+                <img src={myR} alt="" />
 
                 </ConBtn>
                 <SideNav><IoReorderTwoSharp/></SideNav>
