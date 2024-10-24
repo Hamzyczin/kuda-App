@@ -1,8 +1,6 @@
 import { MdArrowDropDown } from "react-icons/md" 
 import styled from "styled-components"
-import { IoReorderTwo } from "react-icons/io5";
 import { IoReorderTwoSharp } from "react-icons/io5";
-import myR from ../
 import { Link } from "react-router-dom";
 const Header = () => {
     return(
@@ -40,7 +38,7 @@ const Header = () => {
                 <SignIn> Sign In</SignIn>
                 <JoinBtn>Join Kuda</JoinBtn>
                 <ConBtn>
-                <img src="" alt="" />
+                <img src="myR" alt="" />
 
                 </ConBtn>
                 <SideNav><IoReorderTwoSharp/></SideNav>
