@@ -1,5 +1,5 @@
 import Hero from "../components/Home/Hero"
-import Info from "../components/info"
+import Info from "../components/Info"
 
 const Personal = () => {
     return(
